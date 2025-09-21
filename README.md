@@ -75,7 +75,7 @@ flowchart LR
   - 多工器選擇：ALU 結果 或 記憶體讀值
   - 寫回暫存器檔
 
-- **流水線暫存器**
+- **Pipeline regester**
   - IF/ID、ID/EX、EX/MEM、MEM/WB：確保訊號在階段間正確傳遞
   - 支援 **暫停 (Stall)** 與 **清空 (Flush)**
 
